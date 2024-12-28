@@ -1,0 +1,44 @@
+1) What is Emmet?
+- Emmet is a free, open-source plugin that helps web developers write HTML and CSS code faster.
+
+2) Library vs Frameworks ??
+- A framework controls the application flow and structure, while a library offers specific functionalities without imposing a particular architecture.
+
+3) what is cdn and why do we use it?
+-  A content delivery network (CDN) is a system of servers that speeds up the delivery of web content to users by storing copies of files closer to them. CDNs are used to reduce latency, or the delay in communication between a website and its users.
+
+4) Why is React known as React?
+- React is called React because it "reacts" to changes in the component's state or props.
+
+5) What is crossorigin in script tag?
+- A "cross origin error in script" means that your web browser is preventing a JavaScript file from loading on your page because it originates from a different domain, violating the "Same-Origin Policy" security measure; essentially, your website is trying to access a resource from a different website without proper permission from that server.
+
+6) What is diference between React and ReactDOM?
+- React = A JavaScript library that builds user interfaces using components, which are reusable UI elements. React defines how a user interface should look based on inputs like props and state. 
+ReactDOM = A package that acts as a bridge between React and the browser's DOM (Document Object Model). ReactDOM renders React components into the DOM, and provides methods like render() and findDOMNode(). 
+
+7) What is difference between react.development.js and react.production.js files via CDN?
+- react.development.js:
+Purpose: Designed for development environments.
+Features:
+Includes helpful warnings and error messages to aid in debugging.
+Contains extra code for development tools and features.
+Unminified, making it easier to read and debug.
+Performance: Slower and larger than the production version due to the extra features and unminified code.
+
+- react.production.js:
+Purpose: Optimized for production environments.
+Features:
+Removes all development-specific warnings and error messages.
+Minified and compressed, resulting in a smaller file size.
+Optimized for performance, making your application run faster.
+Performance: Faster and smaller than the development version due to the removal of debugging features and optimizations.
+Which one should you use?
+
+Development: Use react.development.js while building and testing your application.
+Production: Use react.production.js when deploying your application to live servers.
+
+8) What is async and defer? 
+- Async and defer are attributes in JavaScript that control how scripts are downloaded and executed: 
+Async = Indicates that a script should be downloaded and executed as soon as possible, without blocking the start of HTML parsing. This is a good choice for scripts that don't need to interact with the DOM, like scripts that load images or videos.
+Defer = Indicates that a script should be downloaded in parallel to HTML parsing, and executed after the page has finished parsing. This is a good choice for scripts that need to interact with the DOM, like scripts that initialize widgets or add event listeners.
