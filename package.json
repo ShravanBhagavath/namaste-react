@@ -1,0 +1,15 @@
+{
+  "name": "this-is-namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namste React",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "namaste"
+  ],
+  "author": "Shravan Bhagavath",
+  "license": "ISC"
+}
