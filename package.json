@@ -11,5 +11,8 @@
     "namaste"
   ],
   "author": "Shravan Bhagavath",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
 }
